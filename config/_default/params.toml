@@ -66,6 +66,10 @@ enableCodeCopy = false
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+  
+[plausibleAnalytics]
+  site = "devalex.io"
+  domain = "https://plausible.devalex.io"
 
 [verification]
   # google = ""
