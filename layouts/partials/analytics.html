@@ -8,7 +8,7 @@
   {{ end }}
   {{ with .Site.Params.plausibleAnalytics.site }}
     {{ if isset $.Site.Params.plausibleAnalytics "site" }}
-      <script defer data-domain="{{ $.Site.Params.plausibleAnalytics.site }}" src="{{ $.Site.Params.plausibleAnalytics.domain}}/js/script.js"></script>
+      <script defer data-domain="{{ $.Site.Params.plausibleAnalytics.site }}" src="{{ $.Site.Params.plausibleAnalytics.domain }}/js/script.js"></script>
     {{ end }}
   {{ end }}
   {{ template "_internal/google_analytics.html" . }}
